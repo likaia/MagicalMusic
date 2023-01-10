@@ -14,6 +14,7 @@
 		A287C64A296E2ABE00546924 /* MagicalMusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A287C649296E2ABE00546924 /* MagicalMusicTests.swift */; };
 		A287C654296E2ABE00546924 /* MagicalMusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A287C653296E2ABE00546924 /* MagicalMusicUITests.swift */; };
 		A287C656296E2ABE00546924 /* MagicalMusicUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A287C655296E2ABE00546924 /* MagicalMusicUITestsLaunchTests.swift */; };
+		A287C663296E2BEF00546924 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A287C662296E2BEF00546924 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		A287C64F296E2ABE00546924 /* MagicalMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicalMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A287C653296E2ABE00546924 /* MagicalMusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicalMusicUITests.swift; sourceTree = "<group>"; };
 		A287C655296E2ABE00546924 /* MagicalMusicUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicalMusicUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A287C662296E2BEF00546924 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		A287C62C296E2ABB00546924 = {
 			isa = PBXGroup;
 			children = (
+				A287C662296E2BEF00546924 /* README.md */,
 				A287C637296E2ABC00546924 /* MagicalMusic */,
 				A287C648296E2ABE00546924 /* MagicalMusicTests */,
 				A287C652296E2ABE00546924 /* MagicalMusicUITests */,
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A287C663296E2BEF00546924 /* README.md in Resources */,
 				A287C640296E2ABD00546924 /* Preview Assets.xcassets in Resources */,
 				A287C63D296E2ABD00546924 /* Assets.xcassets in Resources */,
 			);
@@ -351,7 +355,7 @@
 				SDKROOT = appletvos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TVOS_DEPLOYMENT_TARGET = 16.1;
+				TVOS_DEPLOYMENT_TARGET = 16.0;
 			};
 			name = Debug;
 		};
@@ -404,7 +408,7 @@
 				SDKROOT = appletvos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				TVOS_DEPLOYMENT_TARGET = 16.1;
+				TVOS_DEPLOYMENT_TARGET = 16.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -432,6 +436,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 16.0;
 			};
 			name = Debug;
 		};
@@ -458,6 +463,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 16.0;
 			};
 			name = Release;
 		};
